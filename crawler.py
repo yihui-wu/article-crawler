@@ -14,7 +14,7 @@ ssl._create_default_https_context = ssl._create_unverified_context #ssl不報錯
 
 connection = pymysql.connect(host='localhost',
                              user='user',
-                             password='admin1234',
+                             password='password',
                              db='new_media',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
